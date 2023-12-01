@@ -1,4 +1,4 @@
-O git é um controlador de versão de código. Ele também auxilia no controle de qualidade de código, permitindo que mais de uma pessoa trabalhe no mesmo sistema. O sistema, com auxilio do github, também facilita muito revisão de código.
+O git é um controlador de versão de código. Ele também auxilia no controle de qualidade de código, permitindo que mais de uma pessoa trabalhe no mesmo sistema. O sistema, com auxílio do github, também facilita muito revisão de código.
 
 Ele pode ser instalado no link: "https://git-scm.com/". Para instalar basta dar "next" em tudo.
 
@@ -22,7 +22,7 @@ Os principais comandos são:
 		Mostra os commits realizados e seus ids 
 	
 	git reset --hard id_do_commit
-		Volta para versão informada no id_do_commit (cuidado, deve ser usado com cautela, ações feitas aqui não podem voltar atrás)
+		Volta para versão informada no id_do_commit (cuidado, deve ser usado com cautela, ações feitas aqui não podem retroceder)
 	
 Todos esses comandos acima realizam versões na própria máquina, todavia, como alguém tem acesso ao meu código? Por isso existe o github. Gosto de pensar que ele funciona como uma rede social de programadores, onde interagem e trocam código. (OBS: também muito usado como portifólio). Agora segue alguns comandos para interagir com o github. (não se esqueça de criar uma conta em https://github.com/).
 	
@@ -42,7 +42,7 @@ Todos esses comandos acima realizam versões na própria máquina, todavia, como
 		Envia mudanças para uma branch (sempre uma boa prática usar o comando git pull antes de um git push)
 
 	
-Isso faz resolver parte do nosso problema, repare que o git pull ou git push pode entrar em conflito. Nesses casos os conflitos devem ser resolvidos para que o comando possa funcionar. Um conflito ocorre quando o git entende que duas pessoas mexeram numa mesma parte de um código, portanto alguem deve analisar para entender qual parte deve seguir para frente. Mas ai segue um problema, e se um desenvolvedor A quiser criar um botão numa página e um desenvolvedor quiser mudar a cor do fundo. Ambos podem se atrapalhar no "git flow" nesse caso, então como funciona para que ambos os desenvolvedores tenham uma versão estável de código sem que um atrapalhe o outro? Com branchs, branchs criam uma outra linha de versão (normalmente copiando a linha de versão da branch principal (da main/master) ou da branch de desenvolvimento (a develop)). Agora, principais comando para trabalhar com branchs.
+Isso faz resolver parte do nosso problema, repare que o git pull ou git push pode entrar em conflito. Nesses casos os conflitos devem ser resolvidos para que o comando possa funcionar. Um conflito ocorre quando o git entende que duas pessoas mexeram numa mesma parte de um código, portanto alguem deve analisar para entender qual parte deve seguir para frente. Mas ai segue um problema, e se um desenvolvedor A quiser criar um botão numa página e um desenvolvedor quiser mudar a cor do fundo. Ambos podem se atrapalhar no "git flow" nesse caso, então como funciona para que ambos os desenvolvedores tenham uma versão estável de código sem que um atrapalhe o outro? Com branchs, branchs criam outra linha de versão (normalmente copiando a linha de versão da branch principal (da main/master) ou da branch de desenvolvimento (a develop)). Agora, principais comando para trabalhar com branchs.
 	
 	git checkout -b nome_branch_nova
 		Cria uma branch nova com base na que você está agora.
