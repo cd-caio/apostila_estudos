@@ -2,7 +2,12 @@ O git é um controlador de versão de código. Ele também auxilia no controle d
 
 Ele pode ser instalado no link: "https://git-scm.com/". Para instalar basta dar "next" em tudo.
 
+Para rodar os comandos do git, basta ir para uma pasta onde deseja ter seus repósitorios, dar direito do mouse dentro da pasta e clicar em "git bash". Uma tela se abrirá e você poderia escrever os comandos. Para ter certeza que está na pasta correta, rode o comando "pwd", ele irá mostrar o caminho para o diretório em que você está.
+
 Os principais comandos são:
+
+	git --version
+		Vê a versão instalada do git. (Consegue ter certeza que instalou o git corretamente)
 
 	git init
 		Cria um repositório de código
