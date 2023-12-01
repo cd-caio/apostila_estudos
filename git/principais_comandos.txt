@@ -1,5 +1,7 @@
 O git é um controlador de versão de código. Ele também auxilia no controle de qualidade de código, permitindo que mais de uma pessoa trabalhe no mesmo sistema. O sistema, com auxilio do github, também facilita muito revisão de código.
 
+Ele pode ser instalado no link: "https://git-scm.com/". Para instalar basta dar "next" em tudo.
+
 Os principais comandos são:
 
 	git init
