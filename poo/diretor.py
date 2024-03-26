@@ -26,9 +26,9 @@ class Diretor(Funcionario):
     # Metodo proprio da classe Diretor
     def gere_pessoas(self) -> None:
         acao = input("O que quero fazer?")
-        if acao == "demitir":
+        if acao.lower() == "demitir":
             self.__demite_pessoas()
-        elif acao == "contratar":
+        elif acao.lower() == "contratar":
             self.__contrata_pessoas()
         else: 
             print("Você só pode demitir e contratar")
