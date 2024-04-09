@@ -2,6 +2,7 @@ from funcionario import Funcionario
 import time
 
 class AnalistaDados(Funcionario):
+
     # Metodo construtor do AnalistaDados
     def __init__(self, user, curso_analise_dados) -> None:
         # Contrutor da classe mae

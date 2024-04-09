@@ -2,6 +2,7 @@ from abc import ABC, abstractmethod
 
 # Classe funcionario que herda a classe ABC
 class Funcionario(ABC):
+
     def __init__(self, user:str) -> None:
         # Senha padrão, deve ser alterada depois. Todos esses atributos podem ser acessados por qualquer classe que herde a classe Funcionario.
         self.senha = 1234

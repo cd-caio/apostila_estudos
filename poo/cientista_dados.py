@@ -3,6 +3,7 @@ from analista_dados import AnalistaDados
 
 # A classe se chama CientistaDados e esta herdando a classe AnalistaDados
 class CientistaDados(AnalistaDados):
+    
     def __init__(self, user, curso_machine_learning, curso_analise_dados) -> None:
         # Chamando o construtor da classe mae (AnalistaDados)
         super().__init__(user, curso_analise_dados)
