@@ -23,10 +23,16 @@ class LinearRegression():
             db = (1/n_samples) * np.sum(error)
             self.weights = self.weights - self.learning_rate * dw
             self.bias = self.bias - self.learning_rate * db
-        
+        # import pdb
+        # pdb.set_trace()
+        # fig = go.Figure(data=[
+        #     go.Scatter(x=X.reshape(1,-1)[0], y=y.reshape(1,-1)[0], mode='markers'),
+        #     go.Scatter(x=X.reshape(1,-1)[0],y=self.predict(X))
+        # ])
+        # fig.show()
         fig = go.Figure(data=[
             go.Scatter(x=X.reshape(1,-1)[0], y=y.reshape(1,-1)[0], mode='markers'),
-            go.Scatter(x=X.reshape(1,-1)[0],y=self.predict(X))
+            go.Scatter(x=[100, 500],y=[self.predict(100)[0][0], self.predict(500)[0][0]])
         ])
         fig.show()
 
